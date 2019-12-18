@@ -36,7 +36,6 @@
         <br>
         <a href="#informacion">Información general</a>
         <br>
-        <a href="#cristianos">Religión</a>
         <br>
         <a href="#seeing">¿Qué puedo ver?</a>
         <br>
@@ -113,32 +112,7 @@
            </li>
        </ol> </p>
      <br>
-      
-    <h2 id="cristianos">Religión</h2>
-        
-       <table class="tabla"><tbody>
-            <thead>
-                <tr>
-                    <th>Religión</th>
-                    <th>% Población</th>
-                </tr>
-                <tr>
-                    <td>Cristianos </td>
-                    <td>58</td>
-                </tr>
-                 <tr>
-                    <td>Ateos </td>
-                    <td>15</td>
-                </tr>
-                <tr>
-                    <td>Otros </td>
-                    <td>36</td>
-                </tr>
-            </thead>
-            
-                
-            </tbody></table>
-       
+   
        
         <h2 id="seeing"> ¿Qué puedo ver?</h2>
         Además de los sitios turísticos mencionados anteriormente, lo que enamora de Londres son:
@@ -159,7 +133,33 @@
         
       <a class="popup" href="https://www.kasandbox.org/programming-images/landscapes/beach-waves-at-sunset.png"> <img src = "https://www.kasandbox.org/programming-images/landscapes/beach-waves-at-sunset.png" width="250" height="150"> </a>
         
+            <p> Incluso a nuestro gato le apetece irse a Londres... </p>
+  
+   <style>
+            #cat {
+                position: absolute;
+                left: 0px;
+            }
+        </style>         
          
+   <img id="cat" src="https://www.kasandbox.org/programming-images/misc/cat-walk.gif">
+    </div>
+              <script>
+  var catEl = document.getElementById("cat");
+  
+  var startTime = new Date().getTime();
+  var walkTheCat = function() {
+      var currTime = new Date().getTime();
+      var secondsElapsed = ((currTime - startTime)/1000);
+     var newLeft = (50 + ((currTime - startTime)/1000)*30);
+       catEl.style.left = newLeft + "px";  
+       if (newLeft <3000) {
+    window.requestAnimationFrame(walkTheCat);
+  }
+  };
+
+  walkTheCat();
+  </script>
         
     </body>
 </html>
