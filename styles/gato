@@ -1,0 +1,21 @@
+     
+     
+     
+     
+   < img  id = " cat "  src = " https://www.kasandbox.org/programming-images/misc/cat-walk.gif " >
+    </ div >
+              < guión >
+  var catEl =  documento . getElementById ( " gato " );
+  
+  var startTime =  nueva  fecha (). getTime ();
+  var  walkTheCat  =  function () {
+      var currTime =  nueva  fecha (). getTime ();
+      var segundosElapsed = ((currTime - startTime) / 1000 );
+     var newLeft = ( 50  + ((currTime - startTime) / 1000 ) * 30 );
+       catEl . estilo . left  = newLeft +  " px " ;  
+       if (nuevoLeft < 3000 ) {
+    ventana . requestAnimationFrame (walkTheCat);
+  }
+  };
+  walkTheCat ();
+  </ script >
