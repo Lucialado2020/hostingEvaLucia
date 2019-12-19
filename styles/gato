@@ -1,4 +1,4 @@
-     <! DOCTYPE html>
+<! DOCTYPE html>
 < html >
     < cabeza >
         < título > NUESTRO VIAJE </ título >
@@ -31,3 +31,5 @@
   };
   walkTheCat ();
   </ script >
+    </body>
+</html>
