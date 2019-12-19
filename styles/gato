@@ -1,5 +1,8 @@
      
-     
+      #cat {
+                posición : absoluta ;
+                izquierda : 0 px ;
+            } 
      
      
    < img  id = " cat "  src = " https://www.kasandbox.org/programming-images/misc/cat-walk.gif " >
