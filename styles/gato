@@ -1,8 +1,17 @@
-     
-      #cat {
+     <! DOCTYPE html>
+< html >
+    < cabeza >
+        < título > NUESTRO VIAJE </ título >
+        < estilo >
+          #cat {
                 posición : absoluta ;
                 izquierda : 0 px ;
-            } 
+            }   
+            
+        </ estilo >
+    </ cabeza >
+    < cuerpo >
+   
      
      
    < img  id = " cat "  src = " https://www.kasandbox.org/programming-images/misc/cat-walk.gif " >
