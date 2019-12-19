@@ -1,1 +1,19 @@
-theme: jekyll-theme-midnight
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Derivado de "Desafío: pasarela"</title>
+        <style>
+          theme: jekyll-theme-midnight
+        </style>
+    </head>
+    <body>
+
+
+    </body>
+</html>
+
+
+
+
+
