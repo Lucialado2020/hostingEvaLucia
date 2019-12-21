@@ -1,16 +1,4 @@
 
-# Community Participation Guidelines
+# Pautas de participación comunitaria.
 
-This repository is governed by Mozilla's code of conduct and etiquette guidelines. 
-For more details, please read the
-[Mozilla Community Participation Guidelines](https://www.mozilla.org/about/governance/policies/participation/). 
-
-## How to Report
-For more information on how to report violations of the Community Participation Guidelines, please read our '[How to Report](https://www.mozilla.org/about/governance/policies/participation/reporting/)' page.
-
-<!--
-## Project Specific Etiquette
-
-In some cases, there will be additional project etiquette i.e.: (https://bugzilla.mozilla.org/page.cgi?id=etiquette.html).
-Please update for your project.
--->
+Este repositorio sigue el código de conducta propio de las páginas web. Para informarte mejor sobre lo que esto implica, puedes visitar la página web <a href="https://www.sony.co.uk/eu/pages/privacy/CodeOfConduct_es.html" >"Código de conducta para foros y comunidades".</a>
