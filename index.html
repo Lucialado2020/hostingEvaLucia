@@ -6,6 +6,11 @@
       <link href="styles/style.css" rel="stylesheet" type="text/css">
 
     </head>
+    <style>  #cat {
+                position: absolute;
+                left: 0px;
+            }
+    </style>
         <h1>Viajando a Londres</h1>
      
         
@@ -13,48 +18,8 @@
         <p> <Es la capital del Reino Unido, en las orillas del Támesis. Además, se encuentra en la nación constitutiva de Inglaterra. Por tanto, hasta el 31 de octubre, que es la fecha límite que le dió la UE para decidirse, pertenece a la misma.</p>
             <img src="images/pexels-photo-2678301.jpeg" alt="Londres" width="350" height="150">
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <br> <a href="https://images.pexels.com/photos/2678301/pexels-photo-2678301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"> London in a map </a>,<a href="https://www.pexels.com/@ippo"> Filippo Peisino</a>, <a href="https://www.pexels.com/"> Pexels</a>,<a href="https://creativecommons.org/publicdomain/zero/1.0/deed.es_ES">  Licencia CCO </a>
 
-        <h2 id="tiempo">Tiempo más común </h2>
-        
-       <table border="2"><tbody>
-            <thead>
-                <tr>
-                    <th>Estación</th>
-                    <th>Temperatura máximas (ºC)</th>
-                    <th>Temperatura mínimas (ºC)</th>
-                </tr>
-                <tr>
-                    <td>Primavera </td>
-                    <td>35</td>
-                    <td>-7.2</td>
-                </tr>
-                 <tr>
-                    <td>Verano </td>
-                    <td>38</td>
-                    <td>2.8</td>
-                </tr>
-                <tr>
-                    <td>Otoño </td>
-                    <td>29</td>
-                    <td>-6.3</td>
-                </tr>
-                <tr>
-                    <td>Invierno </td>
-                    <td>19.6</td>
-                    <td>-13.6</td>
-                </tr>
-            </thead>
-            
-                
-           </tbody> </table>
-        
         <br>
        <h2 id="informacion">Información general</h2>
        <p> <img class="monumentos" src="https://upload.wikimedia.org/wikipedia/commons/d/d6/London-Eye-2009.JPG" align="right" widht="150px" height="150px"> Londres es una de las ciudades más visitadas del mundo, teniendo en el 2016 20 millones de turistas (convirtiéndose en el país europeo más visitado). Algunos de sus puntos turísticos son:
@@ -90,12 +55,25 @@
     
             <p> Incluso a nuestro gato le apetece irse a Londres... </p>
          
- 
-    <script href="script/gato.jss">
-             
-            
-            </script>
-      
+  <img id="cat" src="https://www.kasandbox.org/programming-images/misc/cat-walk.gif">
+    </div>
+    
+  <script>
+  var catEl = document.getElementById("cat");
+  
+  var startTime = new Date().getTime();
+  var walkTheCat = function() {
+      var currTime = new Date().getTime();
+      var secondsElapsed = ((currTime - startTime)/1000);
+     var newLeft = (50 + ((currTime - startTime)/1000)*30);
+       catEl.style.left = newLeft + "px";  
+       if (newLeft <3000) {
+    window.requestAnimationFrame(walkTheCat);
+  }
+  };
+
+  walkTheCat();
+  </script>
     </body>
 </html>
 
