@@ -1,5 +1,4 @@
 
-
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
@@ -9,7 +8,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'Londres te espera, ' + myName;
+    myHeading.innerHTML = 'Mozilla is cool, ' + myName;
   }
 }
 
@@ -17,7 +16,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   let storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Londres te espera, ' + storedName;
+  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
 }
 
 myButton.onclick = function() {
