@@ -5,10 +5,32 @@
         <title>Derivado de "Desafío: pasarela"</title>
         <style>
           theme: jekyll-theme-midnight
+           #cat {
+                position: absolute;
+                left: 0px;
+            }
         </style>
     </head>
     <body>
+ <img id="cat" src="https://www.kasandbox.org/programming-images/misc/cat-walk.gif">
+    </div>
+    
+  <script>
+  var catEl = document.getElementById("cat");
+  
+  var startTime = new Date().getTime();
+  var walkTheCat = function() {
+      var currTime = new Date().getTime();
+      var secondsElapsed = ((currTime - startTime)/1000);
+     var newLeft = (50 + ((currTime - startTime)/1000)*30);
+       catEl.style.left = newLeft + "px";  
+       if (newLeft <3000) {
+    window.requestAnimationFrame(walkTheCat);
+  }
+  };
 
+  walkTheCat();
+  </script>
 
     </body>
 </html>
