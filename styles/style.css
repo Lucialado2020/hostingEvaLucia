@@ -1,8 +1,11 @@
 html {background-color: #00539F;}
 h1 {color: rgb(147, 245, 147);
+            background-color: #00539F;
             font-family:fantasy;
         }
 h2 {color: rgb(255,255,255);
+            background-color: #00539F;}
 
 p,li { color: rgb(255,255,255);
+            background-color: #00539F;
 }
