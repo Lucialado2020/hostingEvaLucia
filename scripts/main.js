@@ -5,10 +5,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'https://www.pexels.com/photo/red-tower-hill-bus-1837590/') {
-    myImage.setAttribute ('src','https://www.pexels.com/es-es/foto/al-aire-libre-arquitectura-asta-de-bandera-bandera-britanica-2773597/');
+  if(mySrc === 'pexels-photo-2773597.jpeg') {
+    myImage.setAttribute ('src','pexels-photo-1837590.jpeg');
   } else {
-    myImage.setAttribute ('src','https://www.pexels.com/photo/red-tower-hill-bus-1837590/');
+    myImage.setAttribute ('src','pexels-photo-2773597.jpeg');
   }
 }
 
