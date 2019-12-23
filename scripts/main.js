@@ -5,10 +5,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'https://github.com/Lucialado2020/hostingEvaLucia/blob/master/images/pexels-photo-2773597.jpeg?raw=true') {
-    myImage.setAttribute ('src','https://github.com/Lucialado2020/hostingEvaLucia/blob/gh-pages/images/bandera.png?raw=true');
+  if(mySrc === 'images/bus.png') {
+    myImage.setAttribute ('src','images/bandera.png');
   } else {
-    myImage.setAttribute ('src','https://github.com/Lucialado2020/hostingEvaLucia/blob/master/images/pexels-photo-2773597.jpeg?raw=true');
+    myImage.setAttribute ('src','images/bus.png');
   }
 }
 
