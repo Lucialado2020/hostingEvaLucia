@@ -5,10 +5,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'pexels-photo-2773597.jpeg') {
-    myImage.setAttribute ('src','pexels-photo-1837590.jpeg');
+  if(mySrc === 'bus.png') {
+    myImage.setAttribute ('src','bandera.png');
   } else {
-    myImage.setAttribute ('src','pexels-photo-2773597.jpeg');
+    myImage.setAttribute ('src','bus.png');
   }
 }
 
