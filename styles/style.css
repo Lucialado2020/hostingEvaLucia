@@ -5,16 +5,16 @@ html {
 }
 
 h1 {color: rgb(147, 245, 147);
-  size: 10px
+ font-size: 10px
             background-color: rgb(0,0,0);
             font-family:fantasy;
         }
 h2 {color: rgb(255,255,255);
-  size:6px
+   font-size:6px
             background-color: rgb(0,0,0);}
 
 p,li { color: rgb(255,255,255);
-  size:5px
+ font-size:5px
             background-color: rgb(0,0,0);
 }
 html {background-color: rgb(0,0,0);}
