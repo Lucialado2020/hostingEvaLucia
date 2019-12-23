@@ -5,10 +5,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'https://github.com/Lucialado2020/prueba26/blob/master/images/pexels-photo-2678301.jpeg?raw=true') {
-    myImage.setAttribute ('src','https://github.com/Lucialado2020/prueba26/blob/master/images/bus.jpg?raw=true');
+  if(mySrc === 'https://www.pexels.com/photo/red-tower-hill-bus-1837590/') {
+    myImage.setAttribute ('src','https://www.pexels.com/es-es/foto/al-aire-libre-arquitectura-asta-de-bandera-bandera-britanica-2773597/');
   } else {
-    myImage.setAttribute ('src','https://github.com/Lucialado2020/prueba26/blob/master/images/pexels-photo-2678301.jpeg?raw=true');
+    myImage.setAttribute ('src','https://www.pexels.com/photo/red-tower-hill-bus-1837590/');
   }
 }
 
