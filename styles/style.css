@@ -1,4 +1,4 @@
-html {background-color: #00539F;}
+html {color: rgb(255,255,255);}
 h1 {color: rgb(147, 245, 147);
             background-color: #00539F;
             font-family:fantasy;
@@ -9,3 +9,4 @@ h2 {color: rgb(255,255,255);
 p,li { color: rgb(255,255,255);
             background-color: #00539F;
 }
+html {background-color: #00539F;}
