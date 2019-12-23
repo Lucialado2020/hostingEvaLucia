@@ -5,13 +5,13 @@ html {
 }
 
 h1 {color: rgb(147, 245, 147);
-            background-color: #00539F;
+            background-color: rgb(0,0,0);
             font-family:fantasy;
         }
 h2 {color: rgb(255,255,255);
-            background-color: #00539F;}
+            background-color: rgb(0,0,0);}
 
 p,li { color: rgb(255,255,255);
-            background-color: #00539F;
+            background-color: rgb(0,0,0);
 }
-html {background-color: #00539F;}
+html {background-color: rgb(0,0,0);}
