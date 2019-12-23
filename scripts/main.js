@@ -23,7 +23,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'Londres te espera, ' + myName + '. ¡Disfruta!';
+    myHeading.innerHTML = 'Londres te espera, ' + myName;
   }
 }
 
@@ -31,7 +31,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   let storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Londres te espera, ' + storedName + '. ¡Disfruta!';
+  myHeading.innerHTML = 'Londres te espera, ' + storedName;
 }
 
 myButton.onclick = function() {
