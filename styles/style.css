@@ -5,10 +5,7 @@ html {
 }
 
 h1 {
-  color: rgb(147,255,147);
   font-size: 60px;
-  background-color:rgb(0,0,0);
-  font-family: fantasy;
   text-align: center;
 }
 
@@ -49,13 +46,6 @@ h2 {
   font-size: 45px;
 }
 
-#table-1 {
-  font-size: 25px;
-}
-
-h3 {
-  font-size: 35px;
-}
 
 #cat {
   position: absolute;
@@ -70,8 +60,3 @@ h3 {
   color: rgb(100, 28, 75);
 }
 
-#referencias-2 {
-  background-color: rgb(237, 197, 237);
-  text-align: center;  
-  color: rgb(100, 28, 75);
-}
