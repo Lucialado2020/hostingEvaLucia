@@ -17,13 +17,13 @@ p, li {
 
 
 html {
-  background-color: (46, 139, 87);
+  background-color: rgb(46, 139, 87);
 }
 
 body {
   width: 800px;
   margin: 0 auto;
- 
+ background-color: rgb(210, 198, 247);
   padding: 0 20px 20px 20px;
 }
 
@@ -55,7 +55,7 @@ h2 {
 }
 
 #referencias {
-  background-color: (46, 139, 87);
+  background-color: rgb(46, 139, 87);
   text-align: center;
   color: rgb(100, 28, 75);
 }
