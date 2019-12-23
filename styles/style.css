@@ -5,12 +5,12 @@ html {
 }
 
 h1 {color: rgb(147, 245, 147);
- font-size: 100px;
+ font-size: 150px;
             background-color: rgb(0,0,0);
             font-family:fantasy;
         }
 h2 {color: rgb(255,255,255);
-   font-size:20px;
+   font-size:100px;
             background-color: rgb(0,0,0);}
 
 p,li { color: rgb(255,255,255);
